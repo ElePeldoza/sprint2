@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+   
+}
+*:not(dd){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 35px;
+    background-color:black;
+}
+
+
+nav {
+    display: inline;
+   
+    position: sticky;
+}
+
+#logo_nav{
+    float: right;
+}
+main {
+    text-align: center;
+}
+
+#parrafo1 {
+    float: left;
+    margin-left: 20rem;
+    width: 300px;
+    margin-top: 10rem;
+}
+
+#foto2{
+    align-self: self-end;
+    height: 20rem;
+    margin-right: 10rem;
+}
+p{
+    display: inline;
+}
+
+.image_abouUs{
+    width: 200px;
+    align-items: left;
+}
+
+.divisionabout div{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.p_aboutUs {
+    align-items: right;
+    width: 200px;
+    margin-left: 50px;
+    
+}
+
+#contactimg {
+    height: 30rem;
+    width:100%;
+    align-items: center;
+}
+
+#email{
+    float: left;
+}
+#phone{
+    float: right;
+
+}
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+div {
+    display: flex;
+    justify-content: center
+}
+table {
+    border: 2px solid white;
+    border-collapse: collapse; 
+    width: 30rem;
+}
+
+
+
+th {
+    text-align: center;
+    vertical-align: center;  
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid white;
+   border-collapse: collapse;
+
+}
+
+td {
+    text-align: center;
+   vertical-align: center;
+   border: 1px solid whitesmoke;
+   width: 10rem;
+   height: 8rem;
+}
+
+
+h1, h2{
+    text-align: center;
+}
+
+ol{
+    margin-left: 30rem;
+    
+    
+}
+
+section {
+    display: flex;
+    justify-content: center
+}
+
+/*
+.fotos_benefits {
+    width:400px;
+    height: 100vh;}*/
+
+.f-benefit{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    
+    
+}
+
+
+
+.cajab_1 {
+    
+    margin-top: 2rem;
+
+    display: flex;
+    
+   
+
+}
+.cajab_2{
+    display: flex;
+    padding-left: 12rem;
+    margin-top: 2rem;
+    
+}
+/*.lista_separadas{
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+
+
+}*/
+
+
+
